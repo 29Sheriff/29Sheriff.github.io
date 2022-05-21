@@ -119,9 +119,9 @@
 								<ul class="labeled-icons">
 									<li>
 										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										 3320 Kaslo St<br />
-										Vancouver, V5M 3H4<br />
-										BC, Canada
+										 4509 Azure Ave<br />
+										Prince George BC<br />
+										V2M 6R2, Canada
 									</li>
 									<li>
 										<h3 class="ai ai-researchgate ai-2x"><span class=""></span></h3>
@@ -460,10 +460,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon brands ai ai-cv"><span class="label">Twitter</span></a></li>
-						<li><a href="www.linkedin.com/in/sola29" class="icon brands fa-linkedin"><span class="label">Github</span></a></li>
-						<li><a href="https://medium.com/@sheriff.ola29" class="icon brands fa-medium"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid ai ai-ssrn"><span class="label">Email</span></a></li>
+						<li><a href="#" class="icon brands ai ai-cv"><span class="label">CV</span></a></li>
+						<li><a href="www.linkedin.com/in/sola29" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://medium.com/@sheriff.ola29" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+						<li><a href="#" class="icon solid ai ai-ssrn"><span class="label">SSRN</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Sheriff Ola</li><li>2019</a></li>
