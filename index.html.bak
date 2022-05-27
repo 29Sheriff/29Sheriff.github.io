@@ -43,7 +43,7 @@
 						<header class="major">
 							<h2 style="text-align: center;">Welcome | Bienvenue | Akwaaba | Ekaabo</h2>
 						</header>
-						<p>I am an information scientist with professional interest in Geographic Information Systems, and research and data management support within academia, health, and government.  <!--knowledge organization and 
+						<p>I am an information scientist with specialties and interest in GIS, and research data management.  <!--knowledge organization and 
 						data management to support research in academia, government, and industrial--> 
 						<!--<p>I have previously undertaken research at the <a href="https://sunderlandlab.forestry.ubc.ca/" 
 							style="text-decoration: none;">
@@ -56,7 +56,7 @@
 		I received my MLIS from the <a href="https://ischool.ubc.ca/" style="text-decoration: none;">University of British Columbia</a> in 2019 whilst concurrently 
 			working on a thesis for my Master of Science degree in Forestry 
 			supervised by <a href="https://forestry.ubc.ca/faculty-profile/terry-sunderland/" style="text-decoration: none;">Terry Sunderland</a>, also at UBC. 
-			To find out more about my background, please feel free to preview my resume.</p>	
+			To find out more about my background, feel free to peruse my resume.</p>	
 	
 						<ul class="actions">
 							<li><a href="" class="button">Preview Resume</a></li>
@@ -68,9 +68,9 @@
 						<h2 style="text-align: center;">Competencies and Specialties</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="dist/index.html"><img src="https://picsum.photos/id/527/370/217" alt="" /></a>
-								<h3 style="text-align: center;">Information Systems Design & Development</h3>
-							
+								<a href=""><img src="https://picsum.photos/id/361/370/217" alt="" /></a>
+								<h3 style="text-align: center;">An Information System to Support Conservation Learning (in-progress)</h3>
+								
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="instr/index.html"><img src="https://picsum.photos/id/802/370/217" alt="" /></a>
@@ -82,8 +82,8 @@
 								<h3 style="text-align: center;">Research & Technical Writing</h3>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href=""><img src="https://picsum.photos/id/361/370/217" alt="" /></a>
-								<h3 style="text-align: center;">An Information System to Support Conservation Learning (in-progress)</h3>
+								<a href="dist/index.html"><img src="https://picsum.photos/id/527/370/217" alt="" /></a>
+								<h3 style="text-align: center;">Various School Projects</h3>
 						
 							</article>
 							<!--<article class="col-6 col-12-xsmall work-item">
