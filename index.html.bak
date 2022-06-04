@@ -65,25 +65,25 @@
 
 				<!-- Two -->
 					<section id="two">
-						<h2 style="text-align: center;">Skills and Specialties</h2>
+						<h2 style="text-align: center;">Projects</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href=""><img src="https://picsum.photos/id/361/370/217" alt="" /></a>
-								<h3 style="text-align: center;">An Information System to Support Conservation Learning (in-progress)</h3>
+								<h3 style="text-align: center;">Maps $ GIS</h3>
 								
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="instr/index.html"><img src="https://picsum.photos/id/802/370/217" alt="" /></a>
-								<h3 style="text-align: center;">Instruction Design</h3>
+								<h3 style="text-align: center;">Instructionals</h3>
 						
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="di/index.html"><img src="https://picsum.photos/id/668/370/217" alt="" /></a>
-								<h3 style="text-align: center;">Research & Technical Writing</h3>
+								<h3 style="text-align: center;">Database and Metadata</h3>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="dist/index.html"><img src="https://picsum.photos/id/527/370/217" alt="" /></a>
-								<h3 style="text-align: center;">Various School Projects</h3>
+								<h3 style="text-align: center;">School Projects</h3>
 						
 							</article>
 							<!--<article class="col-6 col-12-xsmall work-item">
