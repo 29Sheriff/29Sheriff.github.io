@@ -21,7 +21,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
 		<style>
-		h1 {font-family: 'Press Start 2P', cursive;
+		h1 {font-family: Press Start 2P; 
+		font-style: cursive;
 		font-size: 300%;}
 		</style>
 	</head>
