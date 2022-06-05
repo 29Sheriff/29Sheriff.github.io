@@ -17,6 +17,9 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
 		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<style>
+		h1 {font-size: 300%;}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -27,7 +30,7 @@
 			<header id="header">
 				<div class="inner">
 					<!--<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>-->
-					<h1><strong>Sheriff Ola, MLIS., MSc</strong><br />
+					<h1><strong>Sheriff Ola, MLIS., MSc</strong></h1><br />
 					Geographic Information Systems | Research Data Management & Support<br />
 					<!--crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>-->
 				</div>
