@@ -243,40 +243,43 @@
                                 <div class="col-md-12">
                         			<h2>Spatial Analysis of <em>Myotis Lucifugus</em> Habitat Trends</h2>
                                     <hr style= "border: none; border-top: 3px double #333;color: #333; overflow: visible; text-align: center;height: 5px; width: 120px;">
-                                    <p>Next, a series of
-                        <a href="https://en.wikipedia.org/wiki/Business_rule">Business Rules</a> and an <a href="https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">Entity Relations Model</a> were created to capture the interactions, experiences and processes that would define the new system. This was intended to help provide a thorough understanding of user needs, and how to meet them via the new system's products and services (Coronel & Morris, 2016). The business rules for the new database were defined as follows:
-                        <ol>
-                                <li>A
-                                    <strong>PATRON</strong> may make zero or many
-                                    <strong>REQUEST</strong>, but each
-                                    <strong>REQUEST</strong> must have one and only one
-                                    <strong>PATRON</strong>.</li>
-                                <li>A
-                                    <strong>BOOK</strong> may be checked out in zero or many
-                                    <strong>REQUEST</strong>, but each
-                                    <STRONG>REQUEST</STRONG> must check out one and only one
-                                    <strong>BOOK</strong>.</li>
-                                <li>A
-                                    <strong>JOURNAL_ITEM</strong> may be checked out in zero or many
-                                    <strong>REQUEST</strong>, yet each
-                                    <strong>REQUEST</strong> must check out one and only one
-                                    <strong>JOURNAL_ITEM</strong></li>
-                                <li>A
-                                    <strong>STAFF </strong> member may process zero or many
-                                    <strong>REQUEST</strong>, but each
-                                    <strong>REQUEST </strong>must be processed by one
-                                    <strong>STAFF</strong> member.</li>
-                                <li>A
-                                    <strong>CATALOGUE</strong> may represent one or many
-                                    <strong>BOOK</strong>, but each
-                                    <strong>BOOK</strong> must be represented by one
-                                    <strong>CATALOGUE</strong>.</li>
-                                <li>A
-                                    <strong>CATALOGUE</strong> may represent zero or many
-                                    <strong>JOURNAL_ITEM</strong> but each
-                                    <strong>JOURNAL_ITEM</strong> must be represented by one 
-                                    <strong>CATALOGUE</strong>.</li>
-                        </ol></p>
+                                    <p>Next, to understand Little Brown Bat habitat trends wthin the study area, such as what proportion of the species belong to each Biogeoclimatic Zone, I first performed a spatial join on the BEC Zone and the <em>myotis lucifugus</em> datasets. Afterwards, I performed a statistical summary to determine the proportion and percentages of Little Brown Bats in each biogeoclimatic zone withion the study area. The results I obtained are illustrated in the table below:</p>
+
+                                    <table class="styled-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>BEC Code</th>
+                                                    <th>BEC Name</th>
+                                                    <th># of LBB</th>
+                                                    <th>% of LBB</th>
+                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>BWBS</td>
+                                                <td>Boreal White and Black Spruce</td>
+                                                <td>11</td>
+                                                <td>0.120879121</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>ESSF</td>
+                                                <td>Englemann Spruce – Subalpine Fir</td>
+                                                <td>9</td>
+                                                <td>0.098901099</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>SBS</td>
+                                                <td>Sub-Boreal Spruce</td>
+                                                <td>72</td>
+                                                <td>0.791208791</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                        
+
+
+                        </p>
                                   
                                 </div>
                             </div>
