@@ -58,6 +58,38 @@
     padding: 5px;
 }
 
+/*table styling*/
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
 
 </style>
 
@@ -139,7 +171,52 @@
 
                                    <!--<p class="center" style="text-align: center;"><img src="https://i.ibb.co/YydwvLn/moscow1.png" alt="moscow1" width="600px" height="300px"></p>
                                     <figcaption style="text-align: center; color: #59554A; font-weight: bold; font-size: 13px">MoSCoW Prioritization Matrix for the abstract design</figcaption><br>-->
-                                    <p>My project began with data collection - via personal interviews - to obtain up-to-date and accurate information on the perceptions, experiences and attitudes of student patrons and library staff regarding interlibrary loan services. Other sources of information were online resources such as websites detailing various interlibrary loan processes at the institution. On the basis of the information obtained, various needs and objectives of the proposed system were contextualized using the popular
+                                    <p>I began the project by collecting the necessary data I needed for the analysis. Since the study area was forest districts in British Columbia, I acquired all the data from the <a href="https://catalogue.data.gov.bc.ca/">BC Data Catalogue</a> website. The table below provides details of the data I used:<br>
+
+                                        <table class="styled-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Data</th>
+                                                    <th>Feature</th>
+                                                    <th>Format</th>
+                                                    <th>Projection</th>
+                                                    <th>Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>Forest cover</td>
+                                                <td>Polygon</td>
+                                                <td>Shapefile</td>
+                                                <td>NAD 1983 BC Environment Albers</td>
+                                                <td>Forest area in north-interior BC</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>Myotis Habitats</td>
+                                                <td>Points</td>
+                                                <td>Shapefile</td>
+                                                <td>GCS WGS 1984</td>
+                                                <td>Recorded locations of LBBs</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>BEC Zones</td>
+                                                <td>Points</td>
+                                                <td>Shapefile</td>
+                                                <td>NAD 1983 BC Environment Albers</td>
+                                                <td>Forest ecosystems with study area</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>Hydrology</td>
+                                                <td>Lines</td>
+                                                <td>Shapefile</td>
+                                                <td>NAD 1983 BC Environment Albers</td>
+                                                <td>Streams and lakes</td>
+                                            </tr>
+
+
+
+
+                                     - via personal interviews - to obtain up-to-date and accurate information on the perceptions, experiences and attitudes of student patrons and library staff regarding interlibrary loan services. Other sources of information were online resources such as websites detailing various interlibrary loan processes at the institution. On the basis of the information obtained, various needs and objectives of the proposed system were contextualized using the popular
                             <a href="https://en.wikipedia.org/wiki/MoSCoW_method#:~:text=The%20MoSCoW%20method%20is%20a,MoSCoW%20prioritization%20or%20MoSCoW%20analysis.">MoSCoW Prioritization</a> technique.</p>
 
 
