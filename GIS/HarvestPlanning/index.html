@@ -176,7 +176,7 @@
 
                                    <!--<p class="center" style="text-align: center;"><img src="https://i.ibb.co/YydwvLn/moscow1.png" alt="moscow1" width="600px" height="300px"></p>
                                     <figcaption style="text-align: center; color: #59554A; font-weight: bold; font-size: 13px">MoSCoW Prioritization Matrix for the abstract design</figcaption><br>-->
-                                    <p>I began the project by collecting the necessary data I needed for the analysis. Since the study area was forest districts in British Columbia, I acquired all the data from the <a href="https://catalogue.data.gov.bc.ca/">BC Data Catalogue</a> website. The table below provides details of the data I used:<br>
+                                    <p>I began the project by collecting the necessary data I needed for the analysis. Since the study area was forest districts in British Columbia, I acquired all the data from the <a href="https://catalogue.data.gov.bc.ca/">BC Data Catalogue</a>. The table below provide details of the data I used:<br>
 
                                         <table class="styled-table">
                                             <thead>
@@ -185,6 +185,7 @@
                                                     <th>Feature</th>
                                                     <th>Format</th>
                                                     <th>Projection</th>
+                                                    <th>Datum</th>
                                                     <th>Description</th>
                                                 </tr>
                                             </thead>
@@ -194,6 +195,7 @@
                                                 <td>Polygon</td>
                                                 <td>Shapefile</td>
                                                 <td>NAD 1983 BC Environment Albers</td>
+                                                <td>D_North American 1983</td>
                                                 <td>Forest area in north-interior BC</td>
                                             </tr>
                                             <tr class="active-row">
@@ -201,6 +203,7 @@
                                                 <td>Points</td>
                                                 <td>Shapefile</td>
                                                 <td>GCS WGS 1984</td>
+                                                <td>D_WGS 1984</td>
                                                 <td>Recorded locations of LBBs</td>
                                             </tr>
                                             <tr class="active-row">
@@ -208,6 +211,7 @@
                                                 <td>Points</td>
                                                 <td>Shapefile</td>
                                                 <td>NAD 1983 BC Environment Albers</td>
+                                                <td>D_North American 1983</td>
                                                 <td>Forest ecosystems with study area</td>
                                             </tr>
                                             <tr class="active-row">
@@ -215,10 +219,21 @@
                                                 <td>Lines</td>
                                                 <td>Shapefile</td>
                                                 <td>NAD 1983 BC Environment Albers</td>
+                                                <td>D_North American 1983</td>
                                                 <td>Streams and lakes</td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p>After acquiring the necessary data, I did some cleaning and preprocessing to get them into the proper shapef for the analysis. This included:</p><br>
+                                    <ul>
+                                        <li>Getting all the data into the right projection</li>
+                                        <li>Joining and merging several of the data to allow certain analysis to be performed</li>
+                                        <li>Cliping several of the data (eg. the water and stream network data and BEC zone data) to conform to the study area</li>
+                                        <li>Performed other cleaning and preprocessing tasks necessary</li>
+
+                                    </ul>
+
+                                    <p>After performing the preprocessing and cleaning, the data was ready for the analysis. I began with some simple statistical procedures to answer some of the main questions </p>
 
                                 </div>
                             </div>
