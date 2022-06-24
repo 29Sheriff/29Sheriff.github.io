@@ -302,14 +302,17 @@
                     <div class="tab-pane  fade" id="tabBody3" role="tabpanel" aria-labelledby="tab3" aria-hidden="true" tabindex="0">
                     <div class="row">
                         <div class="col-md-12">
-                        			<h2>Determining Forest Areas Unavailable for Harvesting</h2>
+                        			<h2>Determining Amount of Forest Areas Unavailable for Harvesting</h2>
 
                                     <hr style= "border: none; border-top: 3px double #333;color: #333; overflow: visible; text-align: center;height: 5px; width: 120px;">
 
-                                    <p class="center" style="text-align: center;"><img src="https://i.ibb.co/448kF7x/ermodel.png" alt="ermodel" width="450px" height="300px">
-                                    <figcaption style="text-align: center; color: #59554A; font-weight: bold; font-size: 13px">Entity Relations Model representing business rules for the new system</figcaption></p><br><br>
+                                    <!--<p class="center" style="text-align: center;"><img src="https://i.ibb.co/448kF7x/ermodel.png" alt="ermodel" width="450px" height="300px">
+                                    <figcaption style="text-align: center; color: #59554A; font-weight: bold; font-size: 13px">Entity Relations Model representing business rules for the new system</figcaption></p><br>--><br>
 
-                                    <p>The interactions and processes defined in the business rules were used to develop an Entity Relations Model shown above. To eliminate any data duplication and redundancies in the tables created above, I implemented a series of normalization. Coronel & Morris (2016) posit that a Second Normal Form (2NF) occurs when a database table is already in a First Normal Form (1NF) and includes no partial dependencies. In other words, none of the table's attributes are dependent on a portion of the primary key. Similarly, a Third Normal Form (3NF) is reached when a table is already in Second Normal Form (2NF) and contains no transitive dependencies. Following these recommendations, I ensured that all non-key attributes of tables were dependent on their primary keys, and that all tables had single key values with none of them repeating or duplicated. This is depicted in the diagram below:</p><br><br>
+                                    <p style="font-size: 16;">In determining how much forested areas within each biogeographic zones were unavailable for harvesting, I had to rely on several analysis tools and workflows found in the ArcGIS Pro platform. These included:</p>
+                                    <ul>
+                                        <li><strong><a href="https://pro.arcgis.com/en/pro-app/2.8/tool-reference/analysis/buffer.htm">The Buffer Tool</a></strong>: This tool was used to create a 10 ha buffer around each observed Little Brown Bat habitats and using as input the recorded locations of the Bat habitat while specifying the dissolve option as <em>all</em>. The image below shows the output of the buffer process performed in ArcGIS Pro 1.2<br> <p class="center" style="text-align: center;"><img src="https://i.ibb.co/0KcswZh/Capture-conservation-Planning-myotis-Buffer-Zones2.png" alt="buffer" width="450px" height="300px"></li>
+                                    </ul>
                                     <p class="center" style="text-align: center;"><img src="https://i.ibb.co/RBWd51m/normalize.png" alt="normalize" width="450px" height="300px">
                                     <figcaption style="text-align: center; color: #59554A; font-weight: bold; font-size: 13px">Diagram showing normalized tables</figcaption></p><br>
 
