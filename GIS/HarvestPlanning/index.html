@@ -314,6 +314,46 @@
                                         <li><strong><a href="https://pro.arcgis.com/en/pro-app/2.8/tool-reference/analysis/buffer.htm">The Buffer Tool</a></strong>: This tool was used to create a 10 ha buffer around each observed Little Brown Bat habitat and using as input the recorded locations of the Bat habitat while specifying the dissolve option as <em>all</em>. The image below shows the output of the buffer process performed in ArcGIS Pro 1.2<br><br><p class="center" style="text-align: center;"><img src="https://i.ibb.co/0KcswZh/Capture-conservation-Planning-myotis-Buffer-Zones2.png" alt="buffer" width="450px" height="300px" border="2px solid"></p></li>
                                         <li><strong><a href="https://pro.arcgis.com/en/pro-app/2.8/tool-reference/analysis/clip.htm">The Cip Tool</a></strong>: After using the Buffer Tool to determine how much forested area within each biogeographic zone were unavailable for harvesting, I used the clip tool to extract forested areas corresponding with the buffered areas that were unavailable for harvesting. In doing this, I used the BEC zone datasets as input layer and as the clip features, the buffered locations. The image below shows the output of the clip process<br><br><p class="center" style="text-align: center;"><img src="https://i.ibb.co/jTs7sY9/Capture-conservation-Planning-BECZones-clip.png" alt="clip" width="450px" height="300px" border="2px solid"></p></li>
                                     </ul>
+
+                                    <p style="font-size: 16px;">Below, the table shows the biogeoclimatic zones in the study region and how many hectares of forested areas are unavailable for harvesting in each of them:</p>
+
+                                    <table class="styled-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>BEC Code</th>
+                                                    <th>BEC Name</th>
+                                                    <th>Unhavestable Forested Areas (ha.)</th>
+                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>BWBS</td>
+                                                <td>Boreal White and Black Spruce</td>
+                                                <td>1357.74 ha</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>ESSF</td>
+                                                <td>Englemann Spruce – Subalpine Fir</td>
+                                                <td>3443.44 ha</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>SBS</td>
+                                                <td>Sub-Boreal Spruce</td>
+                                                <td>3726.92 ha</td>
+                                            </tr>
+                                            <tr class="active-row">
+                                                <td>ICH</td>
+                                                <td>Interior Cedar Hemlock</td>
+                                                <td>2320.18 ha</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                        </p>
+                        <p style="font-size: 16px;">The chart below also show the amount of forest cover in each zone that cannot be harvest as a result of the presence of <em>Myotis Lucifugus</em> locations</p>
+                        <img src="https://i.ibb.co/WPbcqXG/newplot2.png" alt="newplot" border="2px;" class="center"><br>
+
                                     <!--<p class="center" style="text-align: center;"><img src="https://i.ibb.co/RBWd51m/normalize.png" alt="normalize" width="450px" height="300px">
                                     <figcaption style="text-align: center; color: #59554A; font-weight: bold; font-size: 13px">Diagram showing normalized tables</figcaption></p><br>-->
 
