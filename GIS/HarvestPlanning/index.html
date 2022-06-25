@@ -104,6 +104,14 @@
   border: 2px solid #555;
 }
 
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 2px solid #555;
+}
+
 </style>
 
 </head>
@@ -369,14 +377,19 @@
                     <div class="tab-pane  fade" id="tabBody4" role="tabpanel" aria-labelledby="tab4" aria-hidden="true" tabindex="0">
                     <div class="row">
                         <div class="col-md-12">
-                        			 <h2>Developing & Testing the Database</h2>
+                        			 <h2>Creating a Harvest Planning Map</h2>
 
                                     <hr style= "border: none; border-top: 3px double #333;color: #333; overflow: visible; text-align: center;height: 5px; width: 120px;">
 
                                     <br>
 
 
-                                    <p>Having completed the logical aspect of the design process, it was now time to bring the database application to life. To do this, I used <a href="https://docs.microsoft.com/en-us/sql/sql-server/sql-server-2012-sp4-release-notes?view=sql-server-2016">Microsoft SQL Server</a> version 12 for Windows Operating System. I used this particular tool/software primarily because it is free, has an intuitive interface and a relatively shallow learning curve . To input the necessary commands for creating the database, I wrote a <a href="OLA_LogicalDesign.sql">script</a> using  Stuctured Query Language (SQL). </p><p>To ascertain how well the new database met the requirements and objectives outlined breviously, I wrote several SQL queries to test for robustness and capacity to handle complex tasks. A few of these queries are illustrated below:</p><br><br>
+                                    <p style="font-size: 16px;">After completing the spatial analysis, I created a map - or rather, 2 maps - to illustrate the results. This wasn't an easy task as naturally I am more partial to the analysis side of GIS than the cartographic side. I accepted a long time ago that I am no artist, and I've made my peace with that. Nevertheless, I did try my best to scramble up a decent map for this project, at least, something that would make sense to a non-cartographic audience. I used both landscape and portrait map orientations to see which of them could best illustrate the results. The 2 maps are shown below:</p>
+
+
+                                    <p><img src="https://i.ibb.co/xDbnvj9/Conservation-Map-prtrt.png" alt="map-portrait" border="2px;" class="center1"></p>
+
+                                      logical aspect of the design process, it was now time to bring the database application to life. To do this, I used <a href="https://docs.microsoft.com/en-us/sql/sql-server/sql-server-2012-sp4-release-notes?view=sql-server-2016">Microsoft SQL Server</a> version 12 for Windows Operating System. I used this particular tool/software primarily because it is free, has an intuitive interface and a relatively shallow learning curve . To input the necessary commands for creating the database, I wrote a <a href="OLA_LogicalDesign.sql">script</a> using  Stuctured Query Language (SQL). </p><p>To ascertain how well the new database met the requirements and objectives outlined breviously, I wrote several SQL queries to test for robustness and capacity to handle complex tasks. A few of these queries are illustrated below:</p><br><br>
 
                         <p><strong>Scenario 1:</strong></p>
                                     <p style="font-family: Courier New, Courier; font-size: medium;">
